@@ -8,7 +8,7 @@ public class simulation {
 		
 		int r = 1; //first circle radius of unit length 1
 		
-		double h = (r / (Math.tan(theta/2))) + r; //gets height of triangle based off of the angle and radius
+		double h = (r / (Math.sin(theta/2))) + r; //gets height of triangle based off of the angle and radius
 		
 		String trueLength = removeLastChar(Double.toString(h)); //converts to a non-rounded string
 		System.out.println("True Length: " + trueLength);
@@ -34,8 +34,8 @@ public class simulation {
 			return true;
 			
 		} else {
-			System.out.println("We have an issue");
 			main.diff = Sn - h; //updates difference between theoretical and true
+			System.out.println("We have an issue: " + main.diff);
 			return false;
 			
 		}
