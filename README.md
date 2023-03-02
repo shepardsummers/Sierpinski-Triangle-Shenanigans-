@@ -24,7 +24,7 @@ You will be prompted to select 4 different options:
 
 # Math Part
 
-Through some math (which I have attached to the end of this document) we find that the k value is proportional to the angle and follows this equation:
+Through some math (which I have attached as a pdf to this repo) we find that the k value is proportional to the angle and follows this equation:
 
 ![image](https://user-images.githubusercontent.com/115957978/222532401-b5373281-9e98-4459-af3c-878d4f6f9d72.png)
 
